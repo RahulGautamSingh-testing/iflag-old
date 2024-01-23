@@ -1,0 +1,16 @@
+{
+  "baseBranches": ["/try/i"],
+  "packageRules": [{
+    "matchCurrentValue": "/V1.0.0/i",
+    "addLabels": ["mcvvalue"]
+  },
+    {
+    "matchCurrentVersion": "/V1.0.0/i",
+    "addLabels": ["mcversion"]
+  },
+    {
+      "matchPackageNames": ["node"],
+      "allowedVersions": ["/V1.8.4/i"]
+    }
+  ]
+}
